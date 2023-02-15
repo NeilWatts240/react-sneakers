@@ -11,7 +11,6 @@ function Card({
     onFavorite,
     onPlus,
     favorited = false,
-    added = false,
     loading = false
 }) {
     const { isItemAdded } = React.useContext(AppContext);
