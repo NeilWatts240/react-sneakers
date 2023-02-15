@@ -124,7 +124,7 @@ function App() {
         <Header onClickCart={() => setCartOpened(true)} />
 
         <Routes>
-          <Route path="/home" element={
+          <Route path="/" element={
             <Home
               items={items}
               cartItems={cartItems}
